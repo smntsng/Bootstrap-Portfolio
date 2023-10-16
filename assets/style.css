@@ -1,2 +1,11 @@
+/* global style */
+*{
+    background-color: #92806A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #logo{
     height: 130px;}
+
+.cover-container{
+    background-image: url(../assets/images/banner-3-GIF.gif);}
