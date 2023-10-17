@@ -7,7 +7,7 @@ This working portfolio built with bootstrap will showcase all the web developmen
  
 
 
-![ALT](/assets/images/bootstrapscreenshot.jpg)
+![ALT](/assets/images/bootstrap-screenshot.jpg)
 
 (https://smntsng.github.io/Bootstrap-Portfolio/)
 
