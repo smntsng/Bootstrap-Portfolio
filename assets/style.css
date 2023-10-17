@@ -176,7 +176,33 @@ header {
 
 
 /* portfolio style */
+#portfolio h5 {
+  color: white;
+  background: rgba(0, 0, 0, 0.651);
+  padding: 20px;
+  margin: 0;
+}
+#portfolio p {
+  color: white;
+  background: rgba(0, 0, 0, 0.651);
+  padding: 20px;
+  margin: 0;
+}
 
 
 
 
+.card-img-overlay{
+    background: rgba(0, 0, 0, 0.233);
+}
+
+/* footer style */
+.underline-on-hover:hover {
+  text-decoration:underline;
+
+
+}
+
+.box-shadow:hover{
+box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
