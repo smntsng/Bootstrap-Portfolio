@@ -6,7 +6,7 @@ This working portfolio built with bootstrap will showcase all the web developmen
 
  
 
-![alt text](assets/images/bootstrap screenshot.jpg)
+<img src=(assets/images/bootstrap screenshot.jpg)
 
 [https://smntsng.github.io/Simon-tsangs-frontend-dev-portfolio/](https://smntsng.github.io/Bootstrap-Portfolio/)
 
