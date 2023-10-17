@@ -9,31 +9,59 @@
     <title>Simon Tsang - Front End Development Portfolio (Bootstrap)</title>
 </head>
 <body>
-<!-- hero start -->
-<div class="cover-container d-flex w-100 h-100  mx-auto flex-column">
-    <header class="mb-auto">
-      <div >
-        <img src="../Bootstrap-Portfolio/assets/images/logo dark background.png" id="logo"  class="float-md-start mb-0 mr-auto p-2">
-        <nav class="nav nav-masthead d-flex justify-content-between float-md-end col-5">
-          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-        </nav>
+<!-- Nav start -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/logo dark background.png" >
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#download">Portfolio</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#features">Contact</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#contact">About</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </nav>
+
+<!-- Nav end -->
+<!-- hero start -->
+
+<header>
+    <div class="p-5  bg-body-tertiary  ">
+        <div class="container-fluid py-5 jumboCopy">
+          <h1 class="display-5 fw-bold">Hi, Simon Here!
+            Your New Web Developer</h1>
+          <button class="btn btn-primary btn-lg portfolio-button" type="button">See Work</button>
+          <button class="btn btn-primary btn-lg contact-button" type="button">Any Questions</button>
+        </div>
+      </div>
+</header>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
   
-    <main class="px-3">
-      <h1>Cover your page.</h1>
-      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-      </p>
-    </main>
-  
-    <footer class="mt-auto text-white-50">
-      <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-    </footer>
-  </div>
+
+</body>
 
 <!-- hero end -->
 
@@ -41,27 +69,62 @@
 <section class="about-me">
       <div class="card-group">
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">About me</h5>
+            <div class="stats" id="stats">
+                <h3>Expected Web Developer Skills After Bootcamp</h3>
+    
+                <p>HTML</p>
+                <div class="container-stats">
+                <div class="skills html">20%</div>
+                </div>
+    
+                <p>CSS</p>
+                <div class="container-stats">
+                <div class="skills css">10%</div>
+                </div>
+    
+                <p>JavaScript</p>
+                <div class="container-stats">
+                    <div class="skills js">0%</div>
+             </div>
+    
+                <p>APIs</p>
+                <div class="container-stats">
+                    <div class="skills js">0%</div>
+                </div>
+                <p>Bootstrap</p>
+                <div class="container-stats">
+                    <div class="skills js">0%</div>
+                </div>
+                <p>JQuery</p>
+                <div class="container-stats">
+                    <div class="skills js">0%</div>
+                </div>
+            </div>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+          <img class="card-img-top" src="../Bootstrap-Portfolio/assets/images/profile photo.jpg" alt="Profile photo">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
+      
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h5>
+                Profile 
+            </h5>
+
+            <p>
+                A passionate web developer with a rich six-year background in e-commerce marketing. My journey began in the dynamic realm of online retail, where I honed my skills in crafting digital solutions that marry cutting-edge technology with strategic marketing insights.
+
+                I bring a deep understanding of the e-commerce landscape, cultivated through years of navigating the evolving trends and demands of the industry. My mission is to create not just websites but immersive digital experiences that resonate with users and drive business growth.
+                
+                My proficiency extends beyond technical expertise; having spent years in marketing roles, I possess a unique ability to fuse the art of promotion with the science of development. I understand the intricacies of online consumer behavior and leverage this insight to create platforms that not only look exceptional but also strategically align with business objectives.
+            </p>
+
           </div>
         </div>
       </div>
@@ -69,62 +132,72 @@
 <!-- about me end -->
 
 <!-- portfolio start -->
-<div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+<div class="container-fluid  ">
+<div class="row">
+<div class="card bg-dark text-white col-sm ">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Marketing website.jpg" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
   </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Beige Neutral Interior Design Landing Page Desktop Prototype (1).png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
   </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+</div>
+<div class="row">
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Beige Neutral Interior Design Landing Page Desktop Prototype (2).png" alt="Card image">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Personal Profile</h5>
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Beige Neutral Interior Design Landing Page Desktop Prototype (3).png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
   </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Beige Neutral Interior Design Landing Page Desktop Prototype (4).png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
   </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+</div>
+<div class="row">
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/Beige Neutral Interior Design Landing Page Desktop Prototype.png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
   </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
+  <div class="card bg-dark text-white col-sm">
+    <img class="card-img" src="../Bootstrap-Portfolio/assets/images/screenshot.jpg" alt="Card image ">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text">Last updated 3 mins ago</p>
     </div>
-  </div>
-  <div class="card bg-dark text-white">
-    <img class="card-img" src="..." alt="Card image">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago</p>
-    </div>
-  </div>
+</div>
+</div>
+</div>
 
 <!-- footer start -->
 <footer class="py-3 my-4">
